@@ -1,0 +1,122 @@
+[
+  {
+    "state": {
+      "genesis": "0x1111111111111111111111111111111111111111111111111111111111111111",
+      "asset": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000",
+      "cap": "1000000",
+      "minted": "199000",
+      "feeTo": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "height": 1,
+      "hash": "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+      "anchor": {
+        "height": 1,
+        "hash": "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+        "index": 4
+      },
+      "balances": {
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff": "199000"
+      },
+      "sequences": {},
+      "collected": "0"
+    },
+    "right": {
+      "asset": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000",
+      "lot": "200",
+      "amount": "1000",
+      "fee": "100000000000",
+      "feeTo": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "signers": [
+        "0x008de9828ced9a8fbcbfa9da37c3080e768f054d1f1b6376395ac6b2a45af608",
+        "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd"
+      ],
+      "threshold": 2,
+      "nonce": "4",
+      "anchor": {
+        "height": 1,
+        "hash": "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+        "index": 4
+      }
+    },
+    "callHex": "0x090208130008008de9828ced9a8fbcbfa9da37c3080e768f054d1f1b6376395ac6b2a45af60879bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd020000000400000000000000020300eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0700e8764817"
+  },
+  {
+    "state": {
+      "genesis": "0x1111111111111111111111111111111111111111111111111111111111111111",
+      "asset": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000",
+      "cap": "1000000",
+      "minted": "200000",
+      "feeTo": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "height": 1,
+      "hash": "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+      "anchor": {
+        "height": 1,
+        "hash": "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+        "index": 4
+      },
+      "balances": {
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff": "200000"
+      },
+      "sequences": {},
+      "collected": "0"
+    },
+    "right": {
+      "asset": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000",
+      "lot": "201",
+      "amount": "1000",
+      "fee": "200000000000",
+      "feeTo": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "signers": [
+        "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+        "0xd5ddec4999e561e9aff04ac650e7099bd018c9f0fad9044cc5f3194e09910b18"
+      ],
+      "threshold": 2,
+      "nonce": "4",
+      "anchor": {
+        "height": 1,
+        "hash": "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+        "index": 4
+      }
+    },
+    "callHex": "0x09020813000879bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcdd5ddec4999e561e9aff04ac650e7099bd018c9f0fad9044cc5f3194e09910b18020000000400000000000000020300eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee0700d0ed902e"
+  },
+  {
+    "state": {
+      "genesis": "0x1111111111111111111111111111111111111111111111111111111111111111",
+      "asset": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000",
+      "cap": "1000000",
+      "minted": "999000",
+      "feeTo": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "height": 1,
+      "hash": "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+      "anchor": {
+        "height": 1,
+        "hash": "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+        "index": 4
+      },
+      "balances": {
+        "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff": "999000"
+      },
+      "sequences": {},
+      "collected": "0"
+    },
+    "right": {
+      "asset": "0xaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa0000000000000000",
+      "lot": "1000",
+      "amount": "1000",
+      "fee": "500000000000",
+      "feeTo": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "signers": [
+        "0x5dfa0cad1df6a28d528fcd54b22ec347b9eefca2912608c233155bac6aa9dadf",
+        "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd"
+      ],
+      "threshold": 2,
+      "nonce": "4",
+      "anchor": {
+        "height": 1,
+        "hash": "0x79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd",
+        "index": 4
+      }
+    },
+    "callHex": "0x0902081300085dfa0cad1df6a28d528fcd54b22ec347b9eefca2912608c233155bac6aa9dadf79bfb0e2ba76b9d447606ddbcc494834f05a4c11deb052e74b49ea307a3c5bcd020000000400000000000000020300eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee070088526a74"
+  }
+]

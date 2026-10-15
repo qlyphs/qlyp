@@ -1,0 +1,40 @@
+{
+  "profile": "progressive-1000-v1",
+  "lots": "1000",
+  "totalFee": "300000000000000",
+  "tiers": [
+    { "first": "0", "last": "199", "fee": "100000000000" },
+    { "first": "200", "last": "399", "fee": "200000000000" },
+    { "first": "400", "last": "599", "fee": "300000000000" },
+    { "first": "600", "last": "799", "fee": "400000000000" },
+    { "first": "800", "last": "999", "fee": "500000000000" }
+  ],
+  "supplies": [
+    { "cap": "1000", "lotSize": "1" },
+    { "cap": "1000000", "lotSize": "1000" },
+    { "cap": "21000000", "lotSize": "21000" },
+    { "cap": "100000000", "lotSize": "100000" },
+    { "cap": "21000000000000000000000000", "lotSize": "21000000000000000000000" },
+    { "cap": "340282366920938463463374607431768211000", "lotSize": "340282366920938463463374607431768211" }
+  ],
+  "cumulative": [
+    { "mintedLots": "0", "fee": "0" },
+    { "mintedLots": "200", "fee": "20000000000000" },
+    { "mintedLots": "400", "fee": "60000000000000" },
+    { "mintedLots": "600", "fee": "120000000000000" },
+    { "mintedLots": "800", "fee": "200000000000000" },
+    { "mintedLots": "1000", "fee": "300000000000000" }
+  ],
+  "invalidQuotes": [
+    { "cap": "0", "minted": "0", "error": "invalid supply" },
+    { "cap": "-1000", "minted": "0", "error": "invalid supply" },
+    { "cap": "340282366920938463463374607431768212000", "minted": "0", "error": "invalid supply" },
+    { "cap": "1", "minted": "0", "error": "supply must contain 1000 equal lots" },
+    { "cap": "999", "minted": "0", "error": "supply must contain 1000 equal lots" },
+    { "cap": "1000001", "minted": "0", "error": "supply must contain 1000 equal lots" },
+    { "cap": "1000000", "minted": "-1000", "error": "invalid minted amount" },
+    { "cap": "1000000", "minted": "1001000", "error": "invalid minted amount" },
+    { "cap": "1000000", "minted": "1", "error": "minted amount must contain whole lots" },
+    { "cap": "1000000", "minted": "199999", "error": "minted amount must contain whole lots" }
+  ]
+}

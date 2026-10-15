@@ -1,0 +1,14 @@
+{
+  "name": "@qlyphs/qlyp",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit --strict --noUncheckedIndexedAccess --exactOptionalPropertyTypes --target ES2022 --module ESNext --moduleResolution bundler --allowImportingTsExtensions --lib ES2022,DOM src/index.ts",
+    "test": "node --experimental-strip-types --test test/*.test.mjs"
+  },
+  "license": "MIT"
+}
